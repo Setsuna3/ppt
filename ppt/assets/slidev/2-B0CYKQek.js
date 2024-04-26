@@ -1,0 +1,4 @@
+import{o as r,c as l,k as n,g as p,q as d,s as c,A as o,p as i,a as u,e}from"../modules/vue-CICrxepS.js";import{I as m}from"../default-IEM4gq8p.js";import{b as _,D as a}from"../index-DQvcnrOV.js";import{p as f,u as h,f as v}from"./context-DUloeQrL.js";import"../modules/shiki-D_tkn2xD.js";const s=t=>(i("data-v-ae5e7f61"),t=t(),u(),t),x=s(()=>e("h1",null,"目录",-1)),I=s(()=>e("ul",null,[e("li",null,[e("p",null,"研究背景")]),e("li",null,[e("p",null,"研究内容")]),e("li",null,[e("p",null,"未来计划")])],-1)),g={__name:"2",setup(t){return f(a),h(),(y,k)=>(r(),l(m,d(c(o(v)(o(a),1))),{default:n(()=>[x,I,p(`
+You can have \`style\` tag in markdown to override the style for the current page.
+Learn more: https://sli.dev/guide/syntax#embedded-styles
+`)]),_:1},16))}},b=_(g,[["__scopeId","data-v-ae5e7f61"],["__file","/@slidev/slides/2.md"]]);export{b as default};
