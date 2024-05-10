@@ -1,0 +1,4 @@
+import{o as n,c as o,k as r,g as s,q as a,s as u,A as l,e}from"../modules/vue-R_M4Yk7U.js";import{I as i}from"../default-CqL1DOQ6.js";import{b as p,D as t}from"../index-BOLyj661.js";import{p as m,u as d,f as c}from"./context-8hd1kDyW.js";import"../contents-Cdpm7qRx.js";import"../modules/shiki-DY4Y_Q5a.js";const _=e("h1",null,"目录",-1),f=e("ul",null,[e("li",null,[e("p",null,"研究背景 & 研究内容 ")]),e("li",null,[e("p",null,"软件设计"),e("ul",null,[e("li",null,[e("p",null,"DSL设计 ")]),e("li",null,[e("p",null,"沙箱设计 ")]),e("li",null,[e("p",null,"系统设计 ")])])]),e("li",null,[e("p",null,"智能算法 ")]),e("li",null,[e("p",null,"总结展望")])],-1),h={__name:"2",setup(v){return m(t),d(),(x,g)=>(n(),o(i,a(u(l(c)(l(t),1))),{default:r(()=>[_,f,s(`
+You can have \`style\` tag in markdown to override the style for the current page.
+Learn more: https://sli.dev/guide/syntax#embedded-styles
+`)]),_:1},16))}},b=p(h,[["__file","/@slidev/slides/2.md"]]);export{b as default};

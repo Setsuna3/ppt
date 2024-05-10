@@ -1,0 +1,14 @@
+import{_ as t}from"./CodeBlockWrapper-Z-97JdRh.js";import{o as h,c as r,k as a,l as k,m as p,q as o,s as c,A as e,e as s,a0 as i}from"../modules/vue-R_M4Yk7U.js";import{I as d}from"../default-CqL1DOQ6.js";import{b as g,ah as l}from"../index-BOLyj661.js";import{p as m,u as D,f as _}from"./context-8hd1kDyW.js";import"../modules/unplugin-icons-BD2GZZxJ.js";import"../contents-Cdpm7qRx.js";import"../modules/shiki-DY4Y_Q5a.js";const E=s("h2",null,"部署",-1),u=s("ul",null,[s("li",null,[i("借助于 Docker，我们的系统是 "),s("strong",null,"一键部署"),i(" 的。")])],-1),f=s("pre",{class:"shiki shiki-themes Vitesse Dark Vitesse Light slidev-code",style:{"--shiki-dark":"#dbd7caee","--shiki-light":"#393a34","--shiki-dark-bg":"#121212","--shiki-light-bg":"#ffffff"}},[s("code",{class:"language-dockerfile"},[s("span",{class:"line"},[s("span",{style:{"--shiki-dark":"#4D9375","--shiki-light":"#1E754F"}},"FROM"),s("span",{style:{"--shiki-dark":"#DBD7CAEE","--shiki-light":"#393A34"}}," alpine:latest")]),i(`
+`),s("span",{class:"line"}),i(`
+`),s("span",{class:"line"},[s("span",{style:{"--shiki-dark":"#4D9375","--shiki-light":"#1E754F"}},"WORKDIR"),s("span",{style:{"--shiki-dark":"#DBD7CAEE","--shiki-light":"#393A34"}}," /code")]),i(`
+`),s("span",{class:"line"}),i(`
+`),s("span",{class:"line"},[s("span",{style:{"--shiki-dark":"#4D9375","--shiki-light":"#1E754F"}},"RUN"),s("span",{style:{"--shiki-dark":"#DBD7CAEE","--shiki-light":"#393A34"}}," apt-get -y install nodejs npm && \\")]),i(`
+`),s("span",{class:"line"},[s("span",{style:{"--shiki-dark":"#DBD7CAEE","--shiki-light":"#393A34"}},"    npm install -g @vue/cli")]),i(`
+`),s("span",{class:"line"},[s("span",{style:{"--shiki-dark":"#DBD7CAEE","--shiki-light":"#393A34"}},"    ")]),i(`
+`),s("span",{class:"line"},[s("span",{style:{"--shiki-dark":"#4D9375","--shiki-light":"#1E754F"}},"COPY"),s("span",{style:{"--shiki-dark":"#DBD7CAEE","--shiki-light":"#393A34"}}," OnlineJudge /code/")]),i(`
+`),s("span",{class:"line"}),i(`
+`),s("span",{class:"line"},[s("span",{style:{"--shiki-dark":"#4D9375","--shiki-light":"#1E754F"}},"RUN"),s("span",{style:{"--shiki-dark":"#DBD7CAEE","--shiki-light":"#393A34"}}," cd vue && npm install && cd ../nodejs && npm install && cd ..")]),i(`
+`),s("span",{class:"line"}),i(`
+`),s("span",{class:"line"},[s("span",{style:{"--shiki-dark":"#4D9375","--shiki-light":"#1E754F"}},"EXPOSE"),s("span",{style:{"--shiki-dark":"#DBD7CAEE","--shiki-light":"#393A34"}}," 8080")]),i(`
+`),s("span",{class:"line"}),i(`
+`),s("span",{class:"line"},[s("span",{style:{"--shiki-dark":"#4D9375","--shiki-light":"#1E754F"}},"CMD"),s("span",{style:{"--shiki-dark":"#DBD7CAEE","--shiki-light":"#393A34"}}," bash /code/run.sh")])])],-1),y={__name:"34",setup(A){return m(l),D(),(C,B)=>{const n=t;return h(),r(d,o(c(e(_)(e(l),33))),{default:a(()=>[E,u,k(n,p({},{ranges:[]}),{default:a(()=>[f]),_:1},16)]),_:1},16)}}},V=g(y,[["__file","/@slidev/slides/34.md"]]);export{V as default};
