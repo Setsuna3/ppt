@@ -14,3 +14,5 @@ git push -u origin master
 
 # 完成后提示
 echo "代码已成功提交并推送到远程仓库！"
+
+read -p "按任意键退出..."
